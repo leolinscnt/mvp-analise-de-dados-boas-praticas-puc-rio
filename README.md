@@ -1,7 +1,9 @@
 # Análise de Dados - Resultados de Jogos da NBA
 
 Aluno: Leonardo Cantisano Lins
+
 Matrícula: 4052025001952
+
 Dataset: NBA Games Data
 
 ## Objetivo
