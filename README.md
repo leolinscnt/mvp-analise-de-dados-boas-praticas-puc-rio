@@ -8,14 +8,14 @@ Dataset: NBA Games Data
 
 ## Objetivo
 
-Este projeto tem como objetivo analisar os fatores que influenciam o resultado de partidas de basquete, com foco na comparação entre o desempenho de times mandantes e visitantes.
+Este projeto tem como objetivo analisar os fatores que influenciam o resultado de partidas de basquete da NBA (liga de basquete dos Estados Unidos), com foco na comparação entre o desempenho de times mandantes e visitantes.
 
 
 ## Definição do Problema
 
 O problema consiste em identificar quais métricas estatísticas estão mais associadas às vitórias dos times mandantes, considerando dados históricos de partidas da NBA.
 
-Trata-se de um problema de **aprendizado supervisionado**, com variável alvo binária indicando vitória (1) ou derrota (0) do time mandante.
+Trata-se de um problema de **classificação supervisionada**, com variável alvo binária indicando vitória (1) ou derrota (0) do time mandante.
 
 
 ## Principais Hipóteses
