@@ -59,7 +59,7 @@ Foram realizadas as seguintes etapas:
 
 ## Como Executar
 
-1. Abra o notebook no Google Colab ou Jupyter Notebook;
+1. Abra o notebook no Google Colab;
 2. Execute as células sequencialmente;
 3. Os dados são carregados diretamente via URL do GitHub.
 
