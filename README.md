@@ -8,7 +8,7 @@ Dataset: NBA Games Data
 
 ## Objetivo
 
-Este projeto tem como objetivo analisar os fatores que influenciam o resultado de partidas de basquete da NBA (liga de basquete dos Estados Unidos), com foco na comparação entre o desempenho de times mandantes e visitantes.
+Este projeto tem como objetivo deste trabalho é analisar os dados históricos de jogos para identificar padrões e relações entre variáveis estatísticas e o resultado das partidas, com foco especial na influência do desempenho do time mandante em relação ao visitante.
 
 
 ## Definição do Problema
@@ -21,9 +21,11 @@ Trata-se de um problema de **classificação supervisionada**, com variável alv
 ## Principais Hipóteses
 
 - Times mandantes possuem maior probabilidade de vitória;
-- O desempenho relativo entre as equipes é mais relevante do que métricas isoladas;
-- Métricas de eficiência ofensiva possuem maior impacto no resultado;
-- A capacidade das arenas não influencia significativamente o resultado.
+- Times mandantes tendem a apresentar pontuação média superior;
+- A probabilidade de vitória está mais associada à eficiência de arremessos (FG%) do que a métricas isoladas de pontuação;
+- O desempenho relativo entre as equipes (diferença entre métricas de mandante e visitante) é mais relevante para explicar o resultado do que métricas isoladas;
+- Times com maior volume de assistências tendem a apresentar melhor desempenho e maior probabilidade de vitória;
+- A capacidade das arenas tem influência no resultado das partidas.
 
 
 ## Análise Exploratória
@@ -31,9 +33,11 @@ Trata-se de um problema de **classificação supervisionada**, com variável alv
 Durante a análise, foram identificados os seguintes insights:
 
 - Existe vantagem estatística para o time mandante;
-- A eficiência de arremessos (FG%) possui forte relação com o resultado;
+- A eficiência de arremessos (FG%) possui a maior correlação com o resultado;
+- O número de assistências possui forte correlação com o número de pontos;
+- A eficiência de arremessos (FG%) de um time e o número de rebotes obtidos pelo adversário apresentam relevante correlação negativa;
 - A diferença entre métricas de desempenho (mandante vs visitante) é o principal fator explicativo;
-- Rebotes possuem impacto secundário;
+- Rebotes possuem impacto secundário no resultado da partida, apresentando maior dispersão;
 - Capacidade das arenas não apresentou relevância significativa.
 
 
