@@ -44,7 +44,7 @@ Os arquivos foram posteriormente disponibilizados via GitHub para garantir a rep
 
 Abrir diretamente no Google Colab:  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leolinscnt/mvp-analise-de-dados-boas-praticas-puc-rio/blob/main/mvp_analise_de_dados.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leolinscnt/mvp-analise-de-dados-boas-praticas-puc-rio/blob/main/notebooks/mvp_analise_de_dados.ipynb)
 
 ## Principais Hipóteses
 
